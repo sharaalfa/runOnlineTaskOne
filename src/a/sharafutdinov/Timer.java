@@ -15,6 +15,8 @@ public class Timer {
                 this.notify();
                 message1.flag=false;
                 this.notify();
+                //message2.flag=false;
+                //this.notify();
             }
             try {   Thread.sleep(1000);}
             catch (InterruptedException e) {};

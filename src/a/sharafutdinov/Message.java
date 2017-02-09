@@ -21,7 +21,7 @@ public class Message implements Runnable {
                     if (fin) return;
                     if(ch.time%this.time==0)
                     {
-                        System.out.println("Thread "+this.time);
+                        System.out.println("Thread: "+this.time);
                         flag=true;
                     }
                     flag=true;
